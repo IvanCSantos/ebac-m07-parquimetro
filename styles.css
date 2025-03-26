@@ -1,0 +1,74 @@
+body {
+  width: 370px;
+}
+table {
+  border-collapse: collapse;
+  /* width: 100%; */
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  min-width: 80px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.containerTempo {
+  margin-top: 40px;
+}
+
+.containerTempo,
+.containerValor {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#tempo {
+  box-sizing: border-box;
+  padding: 3px;
+  width: 90px;
+  height: 30px;
+}
+
+#nota {
+  padding: 3px;
+  width: 90px;
+  height: 30px;
+}
+
+#processar {
+  box-sizing: border-box;
+  border: none;
+  color: #fff;
+  background-color: rgb(61, 61, 64);
+  width: 90px;
+  height: 40px;
+  margin-left: 280px;
+}
+
+#mensagem {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(215, 76, 25);
+}
